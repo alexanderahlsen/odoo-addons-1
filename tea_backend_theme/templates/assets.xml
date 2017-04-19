@@ -20,6 +20,7 @@
         <xpath expr="//script[@src='/web/static/src/js/menu.js']" position="replace">
             <script type="text/javascript" src="/tea_backend_theme/static/src/js/menu.js"></script>
         </xpath>
+
         <xpath expr="//script[@src='/web/static/src/js/views/form_upgrade_widgets.js']" position="replace">
         </xpath>
 

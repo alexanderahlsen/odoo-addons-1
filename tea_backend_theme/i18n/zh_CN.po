@@ -96,7 +96,7 @@ msgstr "Alt"
 #: code:addons/tea_backend_theme/static/src/xml/base.xml:284
 #, python-format
 msgid "Control"
-msgstr "Control"
+msgstr "控制"
 
 #. module: tea_backend_theme
 #: model:ir.ui.view,arch_db:tea_backend_theme.login_layout
@@ -108,14 +108,14 @@ msgstr "数据库"
 #: code:addons/tea_backend_theme/static/src/xml/base.xml:200
 #, python-format
 msgid "Description"
-msgstr "描述"
+msgstr "说明"
 
 #. module: tea_backend_theme
 #. openerp-web
 #: code:addons/tea_backend_theme/static/src/xml/base.xml:225
 #, python-format
 msgid "Discard a record modification ("
-msgstr "丢弃记录修改（"
+msgstr "舍弃记录修改 ("
 
 #. module: tea_backend_theme
 #. openerp-web
