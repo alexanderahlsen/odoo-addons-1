@@ -33,7 +33,7 @@
     'qweb': [
         "static/src/xml/*.xml",
     ],
-    'live_test_url': 'http://113.57.198.202:8069/web?db=tea',
+    'live_test_url': 'http://54.71.162.151:8069/web?db=tea',
     'images': ['images/main_screenshot.png'],
     'currency': 'EUR',
     'price': 99,
