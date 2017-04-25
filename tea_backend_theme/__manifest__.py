@@ -2,7 +2,7 @@
 
 {
     'name': "Tea Backend Theme",
-    'author': "Rain.Wen",
+    'author': "Rain Studio",
     'website': "",
     'sequence': 1,
     'installable': True,
