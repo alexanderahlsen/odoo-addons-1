@@ -1,0 +1,307 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* bamboo_community_theme
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-28 13:17+0000\n"
+"PO-Revision-Date: 2017-04-28 21:18+0800\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: zh_CN\n"
+"X-Generator: Poedit 2.0.1\n"
+
+#. module: bamboo_community_theme
+#: model:ir.ui.view,arch_db:bamboo_community_theme.login_layout
+msgid ""
+"<code style=\"display:none\">\n"
+"                    \n"
+"                        &lt;script src=\"/bamboo_community_theme/static/lib/jquery.min.js\" type=\"text/javascript\"&gt;&lt;/script&gt;\n"
+"                        &lt;script src=\"/bamboo_community_theme/static/lib/bootstrap/js/bootstrap.min.js\" type=\"text/javascript\"&gt;&lt;/script&gt;\n"
+"                        &lt;script src=\"/bamboo_community_theme/static/lib/jquery-slimscroll/jquery.slimscroll.min.js\" type=\"text/javascript\"&gt;&lt;/script&gt;\n"
+"                        &lt;script src=\"/bamboo_community_theme/static/lib/jquery.blockui.min.js\" type=\"text/javascript\"&gt;&lt;/script&gt;\n"
+"                        &lt;script src=\"/bamboo_community_theme/static/lib/bootstrap-switch/js/bootstrap-switch.min.js\" type=\"text/javascript\"&gt;&lt;/script&gt;\n"
+"                        &lt;script src=\"/bamboo_community_theme/static/lib/jquery-validation/js/jquery.validate.min.js\" type=\"text/javascript\"&gt;&lt;/script&gt;\n"
+"                        &lt;script src=\"/bamboo_community_theme/static/lib/jquery-validation/js/additional-methods.min.js\" type=\"text/javascript\"&gt;&lt;/script&gt;\n"
+"                        &lt;script src=\"/bamboo_community_theme/static/lib/select2/js/select2.full.min.js\" type=\"text/javascript\"&gt;&lt;/script&gt;\n"
+"                        &lt;script src=\"/bamboo_community_theme/static/lib/backstretch/jquery.backstretch.min.js\" type=\"text/javascript\"&gt;&lt;/script&gt;\n"
+"                        &lt;script src=\"/bamboo_community_theme/static/lib/app/app.min.js\" type=\"text/javascript\"&gt;&lt;/script&gt;\n"
+"                        &lt;script src=\"/bamboo_community_theme/static/src/js/login.js\" type=\"text/javascript\"&gt;&lt;/script&gt;\n"
+"                    \n"
+"                </code>"
+msgstr ""
+"<code style=\"display:none\">\n"
+"                    \n"
+"                        &lt;script src=\"/bamboo_community_theme/static/lib/jquery.min.js\" type=\"text/javascript\"&gt;&lt;/script&gt;\n"
+"                        &lt;script src=\"/bamboo_community_theme/static/lib/bootstrap/js/bootstrap.min.js\" type=\"text/javascript\"&gt;&lt;/script&gt;\n"
+"                        &lt;script src=\"/bamboo_community_theme/static/lib/jquery-slimscroll/jquery.slimscroll.min.js\" type=\"text/javascript\"&gt;&lt;/script&gt;\n"
+"                        &lt;script src=\"/bamboo_community_theme/static/lib/jquery.blockui.min.js\" type=\"text/javascript\"&gt;&lt;/script&gt;\n"
+"                        &lt;script src=\"/bamboo_community_theme/static/lib/bootstrap-switch/js/bootstrap-switch.min.js\" type=\"text/javascript\"&gt;&lt;/script&gt;\n"
+"                        &lt;script src=\"/bamboo_community_theme/static/lib/jquery-validation/js/jquery.validate.min.js\" type=\"text/javascript\"&gt;&lt;/script&gt;\n"
+"                        &lt;script src=\"/bamboo_community_theme/static/lib/jquery-validation/js/additional-methods.min.js\" type=\"text/javascript\"&gt;&lt;/script&gt;\n"
+"                        &lt;script src=\"/bamboo_community_theme/static/lib/select2/js/select2.full.min.js\" type=\"text/javascript\"&gt;&lt;/script&gt;\n"
+"                        &lt;script src=\"/bamboo_community_theme/static/lib/backstretch/jquery.backstretch.min.js\" type=\"text/javascript\"&gt;&lt;/script&gt;\n"
+"                        &lt;script src=\"/bamboo_community_theme/static/lib/app/app.min.js\" type=\"text/javascript\"&gt;&lt;/script&gt;\n"
+"                        &lt;script src=\"/bamboo_community_theme/static/src/js/login.js\" type=\"text/javascript\"&gt;&lt;/script&gt;\n"
+"                    \n"
+"                </code>"
+
+#. module: bamboo_community_theme
+#. openerp-web
+#: code:addons/bamboo_community_theme/static/src/xml/base_mobile.xml:6
+#, python-format
+msgid "Action"
+msgstr "动作"
+
+#. module: bamboo_community_theme
+#. openerp-web
+#: code:addons/bamboo_community_theme/static/src/xml/base.xml:137
+#: code:addons/bamboo_community_theme/static/src/xml/base.xml:140
+#: code:addons/bamboo_community_theme/static/src/xml/base.xml:146
+#: code:addons/bamboo_community_theme/static/src/xml/base.xml:149
+#: code:addons/bamboo_community_theme/static/src/xml/base.xml:155
+#: code:addons/bamboo_community_theme/static/src/xml/base.xml:158
+#: code:addons/bamboo_community_theme/static/src/xml/base.xml:164
+#: code:addons/bamboo_community_theme/static/src/xml/base.xml:167
+#: code:addons/bamboo_community_theme/static/src/xml/base.xml:173
+#: code:addons/bamboo_community_theme/static/src/xml/base.xml:176
+#: code:addons/bamboo_community_theme/static/src/xml/base.xml:182
+#: code:addons/bamboo_community_theme/static/src/xml/base.xml:185
+#: code:addons/bamboo_community_theme/static/src/xml/base.xml:191
+#: code:addons/bamboo_community_theme/static/src/xml/base.xml:194
+#: code:addons/bamboo_community_theme/static/src/xml/base.xml:200
+#: code:addons/bamboo_community_theme/static/src/xml/base.xml:203
+#: code:addons/bamboo_community_theme/static/src/xml/base.xml:209
+#: code:addons/bamboo_community_theme/static/src/xml/base.xml:212
+#, python-format
+msgid "Alt"
+msgstr "Alt"
+
+#. module: bamboo_community_theme
+#. openerp-web
+#: code:addons/bamboo_community_theme/static/src/js/views/form_widgets.js:91
+#, python-format
+msgid "Cancel"
+msgstr "取消"
+
+#. module: bamboo_community_theme
+#. openerp-web
+#: code:addons/bamboo_community_theme/static/src/xml/base.xml:140
+#: code:addons/bamboo_community_theme/static/src/xml/base.xml:149
+#: code:addons/bamboo_community_theme/static/src/xml/base.xml:158
+#: code:addons/bamboo_community_theme/static/src/xml/base.xml:167
+#: code:addons/bamboo_community_theme/static/src/xml/base.xml:176
+#: code:addons/bamboo_community_theme/static/src/xml/base.xml:185
+#: code:addons/bamboo_community_theme/static/src/xml/base.xml:194
+#: code:addons/bamboo_community_theme/static/src/xml/base.xml:203
+#: code:addons/bamboo_community_theme/static/src/xml/base.xml:212
+#, python-format
+msgid "Control"
+msgstr "控制"
+
+#. module: bamboo_community_theme
+#: model:ir.ui.view,arch_db:bamboo_community_theme.login_layout
+msgid "Database"
+msgstr "数据库"
+
+#. module: bamboo_community_theme
+#. openerp-web
+#: code:addons/bamboo_community_theme/static/src/xml/base.xml:128
+#, python-format
+msgid "Description"
+msgstr "说明"
+
+#. module: bamboo_community_theme
+#. openerp-web
+#: code:addons/bamboo_community_theme/static/src/xml/base.xml:153
+#, python-format
+msgid "Discard a record modification ("
+msgstr "舍弃记录修改 ("
+
+#. module: bamboo_community_theme
+#. openerp-web
+#: code:addons/bamboo_community_theme/static/src/xml/base.xml:144
+#, python-format
+msgid "Edit a record ("
+msgstr "编辑记录（"
+
+#. module: bamboo_community_theme
+#: model:ir.ui.view,arch_db:bamboo_community_theme.login_layout
+msgid "Email"
+msgstr "Email"
+
+#. module: bamboo_community_theme
+#. openerp-web
+#: code:addons/bamboo_community_theme/static/src/js/widgets/user_menu.js:19
+#, python-format
+msgid "Keyboard Shortcuts"
+msgstr "键盘快捷键"
+
+#. module: bamboo_community_theme
+#: model:ir.ui.view,arch_db:bamboo_community_theme.login_layout
+msgid "Log in"
+msgstr "登录"
+
+#. module: bamboo_community_theme
+#: model:ir.ui.view,arch_db:bamboo_community_theme.login_layout
+msgid "Login to your account"
+msgstr "登录到您的帐户"
+
+#. module: bamboo_community_theme
+#. openerp-web
+#: code:addons/bamboo_community_theme/static/src/xml/base.xml:130
+#, python-format
+msgid "Mac"
+msgstr "Mac"
+
+#. module: bamboo_community_theme
+#. openerp-web
+#: code:addons/bamboo_community_theme/static/src/js/views/form_view.js:83
+#: code:addons/bamboo_community_theme/static/src/xml/base_desktop.xml:14
+#, python-format
+msgid "More"
+msgstr "更多"
+
+#. module: bamboo_community_theme
+#. openerp-web
+#: code:addons/bamboo_community_theme/static/src/xml/base.xml:44
+#, python-format
+msgid "No result"
+msgstr "没有结果"
+
+#. module: bamboo_community_theme
+#. openerp-web
+#: code:addons/bamboo_community_theme/static/src/js/views/form_widgets.js:102
+#, python-format
+msgid "Odoo Enterprise"
+msgstr "Odoo 企业版"
+
+#. module: bamboo_community_theme
+#. openerp-web
+#: code:addons/bamboo_community_theme/static/src/xml/base.xml:189
+#: code:addons/bamboo_community_theme/static/src/xml/base.xml:198
+#, python-format
+msgid "Open the"
+msgstr "打开"
+
+#. module: bamboo_community_theme
+#. openerp-web
+#: code:addons/bamboo_community_theme/static/src/xml/base.xml:171
+#: code:addons/bamboo_community_theme/static/src/xml/base.xml:180
+#, python-format
+msgid "Open to"
+msgstr "打开"
+
+#. module: bamboo_community_theme
+#: model:ir.ui.view,arch_db:bamboo_community_theme.login_layout
+msgid "Password"
+msgstr "密码"
+
+#. module: bamboo_community_theme
+#: model:ir.ui.view,arch_db:bamboo_community_theme.login_layout
+msgid "Powered by <span>Odoo</span>"
+msgstr "由<span>Odoo</span>提供技术支持"
+
+#. module: bamboo_community_theme
+#. openerp-web
+#: code:addons/bamboo_community_theme/static/src/xml/base.xml:8
+#, python-format
+msgid "Search..."
+msgstr "搜索..."
+
+#. module: bamboo_community_theme
+#. openerp-web
+#: code:addons/bamboo_community_theme/static/src/xml/base.xml:117
+#, python-format
+msgid "Shortcuts"
+msgstr "快捷键"
+
+#. module: bamboo_community_theme
+#. openerp-web
+#: code:addons/bamboo_community_theme/static/src/xml/base.xml:207
+#, python-format
+msgid "Toggle"
+msgstr "切换"
+
+#. module: bamboo_community_theme
+#. openerp-web
+#: code:addons/bamboo_community_theme/static/src/js/views/form_widgets.js:85
+#, python-format
+msgid "Upgrade now"
+msgstr "即刻升级"
+
+#. module: bamboo_community_theme
+#. openerp-web
+#: code:addons/bamboo_community_theme/static/src/xml/base.xml:129
+#, python-format
+msgid "Windows/Linux"
+msgstr "Windows/Linux"
+
+#. module: bamboo_community_theme
+#. openerp-web
+#: code:addons/bamboo_community_theme/static/src/xml/base.xml:180
+#, python-format
+msgid "anban view"
+msgstr "看板视图"
+
+#. module: bamboo_community_theme
+#. openerp-web
+#: code:addons/bamboo_community_theme/static/src/xml/base.xml:135
+#, python-format
+msgid "ave a record"
+msgstr "保存记录"
+
+#. module: bamboo_community_theme
+#. openerp-web
+#: code:addons/bamboo_community_theme/static/src/xml/base.xml:144
+#, python-format
+msgid "dapt)"
+msgstr "适应)"
+
+#. module: bamboo_community_theme
+#. openerp-web
+#: code:addons/bamboo_community_theme/static/src/xml/base.xml:198
+#, python-format
+msgid "ext record"
+msgstr "下一个记录"
+
+#. module: bamboo_community_theme
+#. openerp-web
+#: code:addons/bamboo_community_theme/static/src/xml/base.xml:171
+#, python-format
+msgid "ist view"
+msgstr "列表视图"
+
+#. module: bamboo_community_theme
+#. openerp-web
+#: code:addons/bamboo_community_theme/static/src/xml/base.xml:207
+#, python-format
+msgid "ome menu"
+msgstr "主菜单"
+
+#. module: bamboo_community_theme
+#. openerp-web
+#: code:addons/bamboo_community_theme/static/src/xml/base.xml:162
+#, python-format
+msgid "reate a new record"
+msgstr "创建一个新的记录"
+
+#. module: bamboo_community_theme
+#. openerp-web
+#: code:addons/bamboo_community_theme/static/src/xml/base.xml:189
+#, python-format
+msgid "revious record"
+msgstr "之前的纪录"
+
+#. module: bamboo_community_theme
+#. openerp-web
+#: code:addons/bamboo_community_theme/static/src/xml/base.xml:153
+#, python-format
+msgid "unk)"
+msgstr "垃圾)"
