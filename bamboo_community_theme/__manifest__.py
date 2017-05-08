@@ -36,5 +36,5 @@
     'live_test_url': 'http://54.71.162.151:8069/web?db=bamboo',
     'images': ['images/main_screenshot.png'],
     'currency': 'EUR',
-    'price': 109,
+    'price': 99,
 }
