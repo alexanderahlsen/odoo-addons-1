@@ -11,7 +11,7 @@ var App = function() {
 
     var resizeHandlers = [];
 
-    var assetsPath = '/tea_tea_backend_theme/static/';
+    var assetsPath = '/tea_tea_community_theme/static/';
 
     var globalImgPath = 'src/img/';
 

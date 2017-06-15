@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <data>
-        <template id="sidebar" inherit_id="web.webclient_bootstrap" name="Tea Sidebar Menu">
+        <template id="layout" inherit_id="web.webclient_bootstrap" name="Tea Layout">
             <xpath expr="//div[hasclass('o_main')]" position="replace">
                 <div class="o_main">
                     <div class="o_sidebar_menu" groups="base.group_user,base.group_portal">
@@ -21,12 +21,22 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="o_main_content" />
+                    <div class="o_main_content" >
+
+                    </div>
                 </div>
+                <!--Enable and close footer,You can cancel comments and comments <div class = "o_footer">-->
+                <!--<div class="o_footer">-->
+                    <!--<div class="o_footer_inner">-->
+                        <!--Powered by <a href="http://www.odoo.com" target="_blank"><span>Odoo</span></a>-->
+                    <!--</div>-->
+                <!--</div>-->
             </xpath>
         </template>
 
-        <template id="tea_backend_theme.sidebar_menu_link">
+
+
+        <template id="tea_backend_theme.sidebar_menu_link" name="Tea Sidebar Link">
             <!--<t t-set="debug_param" t-value="'?&amp;debug=' if debug else ''"/>-->
             <t t-set="debug_param" t-value="''"/>
             <!--<a t-att-href="'/web%s#menu_id=%s&amp;action=%s' % (debug_param, menu['id'], menu['action'] and menu['action'].split(',')[1] or '')"-->

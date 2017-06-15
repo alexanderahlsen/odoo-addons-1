@@ -15,10 +15,10 @@
 
     <template id="assets_backend" name="tea_backend_theme assets backend" inherit_id="web.assets_backend">
         <xpath expr="//script[@src='/web/static/src/js/web_client.js']" position="replace">
-            <script type="text/javascript" src="/tea_backend_theme/static/src/js/web_client.js"></script>
+            <script type="text/javascript" src="/tea_backend_theme/static/src/js/web_client.js"/>
         </xpath>
         <xpath expr="//script[@src='/web/static/src/js/menu.js']" position="replace">
-            <script type="text/javascript" src="/tea_backend_theme/static/src/js/menu.js"></script>
+            <script type="text/javascript" src="/tea_backend_theme/static/src/js/menu.js"/>
         </xpath>
 
         <xpath expr="//script[@src='/web/static/src/js/views/form_upgrade_widgets.js']" position="replace">
@@ -31,7 +31,8 @@
             <link rel="stylesheet" type="text/less" href="/tea_backend_theme/static/src/less/webclient.less"/>
         </xpath>
         <xpath expr="//link[@href='/web/static/src/less/webclient_layout.less']" position="replace">
-            <link rel="stylesheet" type="text/less" href="/tea_backend_theme/static/src/less/webclient_layout.less"/>
+            <link rel="stylesheet" type="text/less" href="/tea_backend_theme/static/src/less/webclient_layout_have_sidebar.less"/>
+            <!--<link rel="stylesheet" type="text/less" href="/tea_backend_theme/static/src/less/webclient_layout_no_sidebar.less"/>-->
         </xpath>
         <xpath expr="//link[@href='/web/static/src/less/views_extra.less']" position="replace">
             <link rel="stylesheet" type="text/less" href="/tea_backend_theme/static/src/less/views.less"/>
@@ -50,16 +51,15 @@
         </xpath>
 
         <xpath expr="." position="inside">
-            <!--<script type="text/javascript" src="/tea_backend_theme/static/src/js/apps.js"></script>-->
-            <script type="text/javascript" src="/tea_backend_theme/static/src/js/app_switcher.js"></script>
-            <script type="text/javascript" src="/tea_backend_theme/static/lib/string-fn/webVersion.js"></script>
-            <script type="text/javascript" src="/tea_backend_theme/static/src/js/sidebar.js"></script>
-            <script type="text/javascript" src="/tea_backend_theme/static/src/js/control_panel.js"></script>
-            <script type="text/javascript" src="/tea_backend_theme/static/src/js/view_manager.js"></script>
-            <script type="text/javascript" src="/tea_backend_theme/static/src/js/views/form_view.js"></script>
-            <script type="text/javascript" src="/tea_backend_theme/static/src/js/views/form_widgets.js"></script>
-            <script type="text/javascript" src="/tea_backend_theme/static/src/js/widgets/debug_manager.js"></script>
-            <script type="text/javascript" src="/tea_backend_theme/static/src/js/widgets/user_menu.js"></script>
+            <script type="text/javascript" src="/tea_backend_theme/static/src/js/app_switcher.js"/>
+            <script type="text/javascript" src="/tea_backend_theme/static/lib/string-fn/webVersion.js"/>
+            <script type="text/javascript" src="/tea_backend_theme/static/src/js/sidebar.js"/>
+            <script type="text/javascript" src="/tea_backend_theme/static/src/js/control_panel.js"/>
+            <script type="text/javascript" src="/tea_backend_theme/static/src/js/view_manager.js"/>
+            <script type="text/javascript" src="/tea_backend_theme/static/src/js/views/form_view.js"/>
+            <script type="text/javascript" src="/tea_backend_theme/static/src/js/views/form_widgets.js"/>
+            <script type="text/javascript" src="/tea_backend_theme/static/src/js/widgets/debug_manager.js"/>
+            <script type="text/javascript" src="/tea_backend_theme/static/src/js/widgets/user_menu.js"/>
 
 
             <link rel="stylesheet" type="text/less" href="/tea_backend_theme/static/src/less/app_switcher.less"/>
@@ -80,7 +80,7 @@
         <!--<xpath expr="//div[hasclass('o_main')]" position="replace"/>-->
 
         <xpath expr="//t[@t-set='head']" position="after">
-            <t t-set="head_tea_backend_theme">
+            <t t-set="head_tea_community_theme">
                 <!-- Chrome, Firefox OS and Opera -->
                 <meta name="theme-color" content="#875A7B"/>
                 <link rel="icon" sizes="192x192" href="/tea_backend_theme/static/src/img/mobile-icons/android-192x192.png"/>
@@ -95,7 +95,7 @@
                 <meta name="msapplication-TileColor" content="#875A7B"/>
                 <meta name="msapplication-TileImage" content="/tea_backend_theme/static/src/img/mobile-icons/windows-144x144.png"/>
             </t>
-            <t t-set="head" t-value="head_tea_backend_theme + (head or '')"/>
+            <t t-set="head" t-value="head_tea_community_theme + (head or '')"/>
         </xpath>
     </template>
 </odoo>

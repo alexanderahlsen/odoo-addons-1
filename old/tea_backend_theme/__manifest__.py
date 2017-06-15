@@ -2,7 +2,7 @@
 
 {
     'name': "Tea Backend Theme",
-    'author': "Rain Studio",
+    'author': "RStudio",
     'website': "",
     'sequence': 1,
     'installable': True,
@@ -21,7 +21,7 @@
 		user/pass: demo
     """,
     "category": "Themes/Backend",
-    'version': '10.0.1.1',
+    'version': '10.0.1.3',
     'depends': [
         'web',
     ],
